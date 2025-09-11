@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalzone - Hardware e IoT para seus Projetos</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Logo da Kalzone">
+            </a>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="O que você está procurando?">
+                <button aria-label="Buscar"><i class="ph ph-magnifying-glass"></i></button>
+            </div>
+            
+            <div class="header-actions">
+                <a href="#" class="action-item">
+                    <i class="ph ph-user-circle"></i>
+                    <span>Entrar</span>
+                </a>
+                <a href="#" class="action-item">
+                    <i class="ph ph-shopping-cart"></i>
+                    <span>Carrinho</span>
+                </a>
+            </div>
+        </div>
+        <nav class="category-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Arduino</a></li>
+                    <li><a href="#">ESP32</a></li>
+                    <li><a href="#">Raspberry Pi</a></li>
+                    <li><a href="#">Sensores</a></li>
+                    <li><a href="#">Displays</a></li>
+                    <li><a href="#">Prototipagem</a></li>
+                    <li><a href="#">Impressão 3D</a></li>
+                    <li><a href="#" class="ofertas">Ofertas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero animate-on-scroll">
+            <div class="container">
+                <h1>Dê vida às suas ideias com a melhor tecnologia.</h1>
+                <p>Componentes, kits e tudo o que você precisa para seus projetos de eletrônica e IoT.</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary">Ver Produtos</a>
+                    <a href="#" class="btn btn-secondary">Explorar Tutoriais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits animate-on-scroll">
+            <div class="container">
+                <div class="benefit-item">
+                    <i class="ph ph-credit-card"></i>
+                    <p>Parcele em até <strong>10x sem juros</strong></p>
+                </div>
+                <div class="benefit-item">
+                    <i class="ph ph-rocket-launch"></i>
+                    <p>Postagem <strong>em até 24h</strong></p>
+                </div>
+                <div class="benefit-item">
+                    <i class="ph ph-qr-code"></i>
+                    <p><strong>5% de desconto</strong> no PIX</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories container animate-on-scroll">
+            <h2>Explore nossas categorias</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card"><span>Arduino</span></a>
+                <a href="#" class="category-card"><span>ESP</span></a>
+                <a href="#" class="category-card"><span>Raspberry Pi</span></a>
+                <a href="#" class="category-card"><span>Sensores</span></a>
+                <a href="#" class="category-card"><span>Displays</span></a>
+                <a href="#" class="category-card"><span>Prototipagem</span></a>
+                <a href="#" class="category-card"><span>Impressão 3D</span></a>
+                <a href="#" class="category-card special"><span>Ofertas</span></a>
+            </div>
+        </section>
+
+        <section class="featured-products container animate-on-scroll">
+            <h2>Produtos em destaque</h2>
+            <div class="product-grid">
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/produto-esp32.jpg" alt="ESP32 DevKitC">
+                    </div>
+                    <h3>ESP32 DevKitC V4 com WiFi e Bluetooth</h3>
+                    <div class="product-compatibility">
+                        <span>Compatível com: Arduino IDE, MicroPython</span>
+                    </div>
+                    <div class="product-price">R$ 49,90</div>
+                    <div class="product-actions">
+                        <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/produto-arduino.jpg" alt="Arduino Uno R3">
+                    </div>
+                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
+                     <div class="product-compatibility">
+                        <span>Compatível com: Shields Arduino Uno</span>
+                    </div>
+                    <div class="product-price">R$ 89,90</div>
+                    <div class="product-actions">
+                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/produto-sensor.jpg" alt="Sensor Ultrassônico HC-SR04">
+                    </div>
+                    <h3>Sensor Ultrassônico HC-SR04</h3>
+                     <div class="product-compatibility">
+                        <span>Compatível com: Arduino, ESP32, Raspberry Pi</span>
+                    </div>
+                    <div class="product-price">R$ 9,90</div>
+                    <div class="product-actions">
+                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                     <div class="product-image">
+                        <img src="images/produto-raspberry.jpg" alt="Raspberry Pi 4">
+                    </div>
+                    <h3>Raspberry Pi 4 Model B 4GB</h3>
+                     <div class="product-compatibility">
+                        <span>Compatível com: Linux, HATs Raspberry Pi</span>
+                    </div>
+                    <div class="product-price">R$ 450,00</div>
+                    <div class="product-actions">
+                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tutorials container animate-on-scroll">
+            <h2>Aprenda na prática</h2>
+            <div class="tutorial-grid">
+                <a href="#" class="tutorial-card">
+                    <p>Como usar um <strong>Sensor de Umidade</strong> com <strong>ESP32</strong></p>
+                    <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+                </a>
+                <a href="#" class="tutorial-card">
+                    <p>Primeiros passos: Piscando um LED com <strong>Arduino</strong></p>
+                     <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+                </a>
+                <a href="#" class="tutorial-card">
+                    <p>Controlando um <strong>Display OLED</strong> com <strong>Raspberry Pi</strong></p>
+                     <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="newsletter-blog animate-on-scroll">
+            <div class="container">
+                <div class="newsletter-cta">
+                    <h3>Fique por dentro das novidades!</h3>
+                    <p>Receba ofertas, tutoriais e lançamentos direto no seu e-mail.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu melhor e-mail" required>
+                        <button type="submit" class="btn btn-primary">Assinar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq container animate-on-scroll">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <details>
+                    <summary>Quais são as formas de pagamento?</summary>
+                    <p>Aceitamos Pix (com 5% de desconto), boleto bancário e cartão de crédito em até 10x sem juros.</p>
+                </details>
+                <details>
+                    <summary>Como funciona o rastreamento de pedidos?</summary>
+                    <p>Após a confirmação do pagamento, seu pedido é postado em até 24 horas úteis. Você receberá um código de rastreio por e-mail para acompanhar a entrega diretamente no site dos Correios ou da transportadora.</p>
+                </details>
+                 <details>
+                    <summary>Os produtos possuem garantia?</summary>
+                    <p>Sim, todos os nossos produtos possuem garantia de 90 dias contra defeitos de fabricação.</p>
+                </details>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+             <div class="support-chat">
+                <i class="ph ph-chats-circle"></i> Precisa de ajuda? <strong>Fale conosco</strong>
+            </div>
+            <div class="footer-links">
+                <a href="#">Sobre a Kalzone</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Política de Privacidade</a>
+            </div>
+            <p>&copy; 2025 Kalzone. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
