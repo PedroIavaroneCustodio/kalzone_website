@@ -1,262 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalzone - Hardware e IoT para seus Projetos</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalzone - Hardware e IoT para seus Projetos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="images/logo.png" alt="Logo da Kalzone">
-            </a>
-            
-            <div class="search-bar">
-                <input type="text" placeholder="O que você está procurando?">
-                <button aria-label="Buscar"><i class="ph ph-magnifying-glass"></i></button>
-            </div>
-            
-            <div class="header-actions">
-                <a href="#" class="action-item">
-                    <i class="ph ph-user-circle"></i>
-                    <span>Entrar</span>
-                </a>
-                <a href="#" class="action-item">
-                    <i class="ph ph-shopping-cart"></i>
-                    <span>Carrinho</span>
-                </a>
-            </div>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="Logo da Kalzone"/>
+      </a>
+
+      <div class="search-bar">
+        <input type="text" placeholder="O que você está procurando?"/>
+        <button aria-label="Buscar"><i class="ph ph-magnifying-glass"></i></button>
+      </div>
+
+      <div class="header-actions">
+        <a href="#" class="action-item">
+          <i class="ph ph-user-circle"></i><span>Entrar</span>
+        </a>
+        <a href="#" class="action-item">
+          <i class="ph ph-shopping-cart"></i><span>Carrinho</span>
+        </a>
+      </div>
+    </div>
+    <nav class="category-nav">
+      <div class="container">
+        <ul>
+          <li><a href="#">Arduino</a></li>
+          <li><a href="#">ESP32</a></li>
+          <li><a href="#">Raspberry Pi</a></li>
+          <li><a href="#">Sensores</a></li>
+          <li><a href="#">Displays</a></li>
+          <li><a href="#">Prototipagem</a></li>
+          <li><a href="#">Impressão 3D</a></li>
+          <li><a href="#" class="ofertas">Ofertas</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO com carrossel -->
+    <section class="hero animate-on-scroll">
+      <div class="banner-carousel">
+        <div class="slide active">
+          <img src="images/banner1.jpeg" alt="Bancada de eletrônica 1"/>
         </div>
-        <nav class="category-nav">
-            <div class="container">
-                <ul>
-                    <li><a href="#">Arduino</a></li>
-                    <li><a href="#">ESP32</a></li>
-                    <li><a href="#">Raspberry Pi</a></li>
-                    <li><a href="#">Sensores</a></li>
-                    <li><a href="#">Displays</a></li>
-                    <li><a href="#">Prototipagem</a></li>
-                    <li><a href="#">Impressão 3D</a></li>
-                    <li><a href="#" class="ofertas">Ofertas</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero animate-on-scroll">
-            <div class="container">
-                <h1>Dê vida às suas ideias com a melhor tecnologia.</h1>
-                <p>Componentes, kits e tudo o que você precisa para seus projetos de eletrônica e IoT.</p>
-                <div class="hero-actions">
-                    <a href="#" class="btn btn-primary">Ver Produtos</a>
-                    <a href="#" class="btn btn-secondary">Explorar Tutoriais</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="benefits animate-on-scroll">
-            <div class="container">
-                <div class="benefit-item">
-                    <i class="ph ph-credit-card"></i>
-                    <p>Parcele em até <strong>10x sem juros</strong></p>
-                </div>
-                <div class="benefit-item">
-                    <i class="ph ph-rocket-launch"></i>
-                    <p>Postagem <strong>em até 24h</strong></p>
-                </div>
-                <div class="benefit-item">
-                    <i class="ph ph-qr-code"></i>
-                    <p><strong>5% de desconto</strong> no PIX</p>
-                </div>
-            </div>
-        </section>
-
-    <section class="featured-products container animate-on-scroll" style=margin-top:40px>
-            <div class="product-grid">
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="ESP32 DevKitC">
-                    </div>
-                    <h3>ESP32 DevKitC V4 com WiFi e Bluetooth</h3>
-                    <div class="product-compatibility">
-                        <span>Compatível com: Arduino IDE, MicroPython</span>
-                    </div>
-                    <div class="product-price">R$ 49,90</div>
-                    <div class="product-actions">
-                        <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Arduino Uno R3">
-                    </div>
-                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Shields Arduino Uno</span>
-                    </div>
-                    <div class="product-price">R$ 89,90</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                
-                
-                <div class="product-card">
-                     <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Raspberry Pi 4">
-                    </div>
-                    <h3>Raspberry Pi 4 Model B 4GB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Linux, HATs Raspberry Pi</span>
-                    </div>
-                    <div class="product-price">R$ 450,00</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Arduino Uno R3">
-                    </div>
-                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Shields Arduino Uno</span>
-                    </div>
-                    <div class="product-price">R$ 89,90</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-                
-            <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Arduino Uno R3">
-                    </div>
-                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Shields Arduino Uno</span>
-                    </div>
-                    <div class="product-price">R$ 89,90</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-
-
-            <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Arduino Uno R3">
-                    </div>
-                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Shields Arduino Uno</span>
-                    </div>
-                    <div class="product-price">R$ 89,90</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-
-            <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Arduino Uno R3">
-                    </div>
-                    <h3>Placa Arduino Uno R3 + Cabo USB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Shields Arduino Uno</span>
-                    </div>
-                    <div class="product-price">R$ 89,90</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-
-
-
-                <div class="product-card">
-                     <div class="product-image">
-                        <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="Raspberry Pi 4">
-                    </div>
-                    <h3>Raspberry Pi 4 Model B 4GB</h3>
-                     <div class="product-compatibility">
-                        <span>Compatível com: Linux, HATs Raspberry Pi</span>
-                    </div>
-                    <div class="product-price">R$ 450,00</div>
-                    <div class="product-actions">
-                         <button class="btn btn-primary">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="tutorials container animate-on-scroll" style=margin-top:40px>
-            <h2>Aprenda na prática</h2>
-            <div class="tutorial-grid">
-                <a href="#" class="tutorial-card">
-                    <p>Como usar um <strong>Sensor de Umidade</strong> com <strong>ESP32</strong></p>
-                    <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
-                </a>
-                <a href="#" class="tutorial-card">
-                    <p>Primeiros passos: Piscando um LED com <strong>Arduino</strong></p>
-                     <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
-                </a>
-                <a href="#" class="tutorial-card">
-                    <p>Controlando um <strong>Display OLED</strong> com <strong>Raspberry Pi</strong></p>
-                     <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
-                </a>
-            </div>
-        </section>
-
-
-        <section class="faq container animate-on-scroll" style=margin-top:40px>
-            <h2 >Perguntas Frequentes</h2>
-            <div class="faq-list">
-                <details>
-                    <summary>Quais são as formas de pagamento?</summary>
-                    <p>Aceitamos Pix (com 5% de desconto), boleto bancário e cartão de crédito em até 10x sem juros.</p>
-                </details>
-                <details>
-                    <summary>Como funciona o rastreamento de pedidos?</summary>
-                    <p>Após a confirmação do pagamento, seu pedido é postado em até 24 horas úteis. Você receberá um código de rastreio por e-mail para acompanhar a entrega diretamente no site dos Correios ou da transportadora.</p>
-                </details>
-                 <details>
-                    <summary>Os produtos possuem garantia?</summary>
-                    <p>Sim, todos os nossos produtos possuem garantia de 90 dias contra defeitos de fabricação.</p>
-                </details>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-             <div class="support-chat">
-                <i class="ph ph-chats-circle"></i> Precisa de ajuda? <strong>Fale conosco</strong>
-            </div>
-            <div class="footer-links">
-                <a href="#">Sobre a Kalzone</a>
-                <a href="#">Termos de Serviço</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-            <p>&copy; 2025 Kalzone. Todos os direitos reservados.</p>
+        <div class="slide">
+          <img src="images/banner2.jpg" alt="Bancada de eletrônica 2"/>
         </div>
-    </footer>
+        <div class="slide">
+          <img src="images/banner3.jpg" alt="Bancada de eletrônica 3"/>
+        </div>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="container hero-content">
+        <h1>Dê vida às suas ideias com a melhor tecnologia.</h1>
+        <p>Componentes, kits e tudo o que você precisa para seus projetos de eletrônica e IoT.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary">Ver Produtos</a>
+          <a href="#" class="btn btn-secondary btn-tutoriais">Explorar Tutoriais</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="benefits animate-on-scroll">
+      <div class="container">
+        <div class="benefit-item">
+          <i class="ph ph-credit-card"></i>
+          <p>Parcele em até <strong>10x sem juros</strong></p>
+        </div>
+        <div class="benefit-item">
+          <i class="ph ph-rocket-launch"></i>
+          <p>Postagem <strong>em até 24h</strong></p>
+        </div>
+        <div class="benefit-item">
+          <i class="ph ph-qr-code"></i>
+          <p><strong>5% de desconto</strong> no PIX</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-products container animate-on-scroll" style="margin-top:40px">
+      <h2 class="section-title">Produtos em Destaque</h2>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2023/12/Raspberry-Pi-5-Model-B-Anatel-PAI96-foto-prod-1.png" alt="ESP32 DevKitC"/>
+          </div>
+          <h3>Raspberry Pi 5 Model B Anatel</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: RPi OS; HATs 40 pinos</span>
+          </div>
+          <div class="product-price">R$ 579,40</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2023/06/arduino-UNO-R4-minima-1AC42-foto-prod-02.png.webp" alt="Arduino Uno R3"/>
+          </div>
+          <h3>Arduino Uno R4 Minima</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino IDE; Shields UNO R3</span>
+          </div>
+          <div class="product-price">R$ 166,15</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2023/07/arduino-nano-ESP32-1AC45-foto-prod-1.png.webp" alt="Raspberry Pi 4"/>
+          </div>
+          <h3>Arduino Nano ESP32</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino IDE (ESP32); MicroPython</span>
+          </div>
+          <div class="product-price">R$ 174,90</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2017/07/450xN-4-5.jpg.webp" alt="Arduino Uno R3"/>
+          </div>
+          <h3>Kit Módulo Rfid Mfrc522 Mifare</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino/ESP32/RPi; SPI 3,3 V</span>
+          </div>
+          <div class="product-price">R$ 12,73</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2020/02/M%C3%B3dulo-ESP32-LoRa-SX1276-868915Mhz-com-OLED-6-min.jpg.webp" alt="Arduino Uno R3"/>
+          </div>
+          <h3>Placa ESP32 LoRa SX1276 868/915Mhz com OLED</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino IDE (ESP32); LoRa 868/915 MHz</span>
+          </div>
+          <div class="product-price">R$ 218,40</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2025/07/sensor-distancia-VL53L0x-laser-time-of-flight-9SSM6-foto-prod-3.png.webp" alt="Arduino Uno R3"/>
+          </div>
+          <h3>Sensor de Distância a Laser VL53L0X de Alta Precisão</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino/ESP32/RPi; I²C</span>
+          </div>
+          <div class="product-price">R$ 23,65</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://www.makerhero.com/wp-content/uploads/2017/07/9ssb4-2.jpg.webp" alt="Arduino Uno R3"/>
+          </div>
+          <h3>Módulo Wireless NRF24L01 com Antena SMA</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino/ESP32/RPi; SPI 3,3 V</span>
+          </div>
+          <div class="product-price">R$ 28,40</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.tcdn.com.br/img/img_prod/650361/mega_kit_robotica_para_arduino_uno_e_200_pcs_com_tutorial_789_1_9d46a883ba720c8255dda07559ba6c0d.jpg" alt="Raspberry Pi 4"/>
+          </div>
+          <h3>Kit Arduino Uno + 200 Componentes</h3>
+          <div class="product-compatibility">
+            <span>Compatível com: Arduino IDE; Shields UNO</span>
+          </div>
+          <div class="product-price">R$ 349,90</div>
+          <div class="product-actions">
+            <button class="btn btn-buy-now">Comprar Agora</button>
+            <button class="btn btn-primary">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="tutorials container animate-on-scroll" style="margin-top:40px">
+      <h2>Aprenda na prática</h2>
+      <div class="tutorial-grid">
+        <a href="#" class="tutorial-card">
+          <p>Como usar um <strong>Sensor de Umidade</strong> com <strong>ESP32</strong></p>
+          <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+        </a>
+        <a href="#" class="tutorial-card">
+          <p>Primeiros passos: Piscando um LED com <strong>Arduino</strong></p>
+          <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+        </a>
+        <a href="#" class="tutorial-card">
+          <p>Controlando um <strong>Display OLED</strong> com <strong>Raspberry Pi</strong></p>
+          <span>Ver Tutorial <i class="ph ph-arrow-right"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="faq container animate-on-scroll" style="margin-top:40px">
+      <h2>Perguntas Frequentes</h2>
+      <div class="faq-list">
+        <details>
+          <summary>Quais são as formas de pagamento?</summary>
+          <p>Aceitamos Pix (com 5% de desconto), boleto bancário e cartão de crédito em até 10x sem juros.</p>
+        </details>
+        <details>
+          <summary>Como funciona o rastreamento de pedidos?</summary>
+          <p>Após a confirmação do pagamento, seu pedido é postado em até 24 horas úteis. Você receberá um código de rastreio por e-mail para acompanhar a entrega diretamente no site dos Correios ou da transportadora.</p>
+        </details>
+        <details>
+          <summary>Os produtos possuem garantia?</summary>
+          <p>Sim, todos os nossos produtos possuem garantia de 90 dias contra defeitos de fabricação.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="support-chat">
+        <i class="ph ph-chats-circle"></i> Precisa de ajuda? <strong>Fale conosco</strong>
+      </div>
+      <div class="footer-links">
+        <a href="#">Sobre a Kalzone</a>
+        <a href="#">Termos de Serviço</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+      <p>&copy; 2025 Kalzone. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
